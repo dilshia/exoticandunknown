@@ -1,0 +1,42 @@
+# exoticandunknown
+<!DOCTYPE html>
+
+<html>
+<head>
+
+<title>Exotic-and-Unknown</title>
+
+<link rel="stylesheet" href="file.css">
+<link href="myscript.js">
+<script src=https://code.jquery.com/jquery-3.1.1.min.js></script> 
+</head>
+
+<body>
+
+<h1>Exotic and Unknown</h1>
+
+<p> Planning a vacation? These destinations are the perfect place to take instagram-worthy pictures and make memories to last a lifetime!
+</p>
+
+<p>Heard of any picturesque holiday destinations? Let us know!</p>
+<div>
+	<label for="name">Name</label>
+	<input type="text" id="name" name="name" placeholder="Your name..">
+
+</div>
+<div class="tab">
+	<button class="tablinks" onclick="openContinent(event, 'Africa')">Africa</button>
+	<button class="tablinks" onclick="openContinent(event, 'Asia')">Asia</button>
+	<button class="tablinks" onclick="openContinent(event, 'Australia')">Australia</button>
+	<button class="tablinks" onclick="openContinent(event, 'Europe')">Europe</button>
+	<button class ="tablinks" onclick="openContinent(event, 'North America')">North America</button>
+	<button class="tablinks" onclick="openContinent(event, 'South America')">South America</button>
+</div>
+
+<div id="Africa" class="tabcontent">
+<h2>
+
+
+
+</body>
+</html>
